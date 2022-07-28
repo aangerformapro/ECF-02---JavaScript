@@ -2,12 +2,13 @@ body{
     background-color: #FAACA8;
     background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
     padding:0; Margin:0; display:flex; align-items: center; justify-content: center; height: 100vh;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
 .container{
     width:100%; 
-    max-width:650px;
+    max-width:450px;
     background:#FFF;
     box-sizing: border-box;
     box-shadow: -2px 14px 35px -7px rgba(0,0,0,0.50);
@@ -16,4 +17,5 @@ body{
     padding:20px
 }
 
-.container h1{width:100%; text-align:center;}
+.container h1{width:100%; text-align:center;font-weight: 100;}
+.container h1 strong{font-weight: 700;}
