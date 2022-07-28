@@ -17,5 +17,8 @@ body{
     padding:20px
 }
 
-.container h1{width:100%; text-align:center;font-weight: 100;}
+.container h1{width:100%; text-align:center;font-weight: 100;margin-bottom: 40px;}
 .container h1 strong{font-weight: 700;}
+
+.imcInputs{width:100%}
+.imcInputs input, .imcInputs label{width:100%;padding: 20px;box-sizing: border-box;margin: 10px 0;}
