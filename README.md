@@ -33,10 +33,13 @@ Voilà comment comprendre le calcul de votre IMC :
 ### Visuels
 
 Etat initial
+
 ![alt text](https://alainmerucci.fr/projets-acs/ECF/inital.png)
 
 Etat erreur
+
 ![alt text](https://alainmerucci.fr/projets-acs/ECF/error.png)
 
 Etat ok
+
 ![alt text](https://alainmerucci.fr/projets-acs/ECF/ok.png)
