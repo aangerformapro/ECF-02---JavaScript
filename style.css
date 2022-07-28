@@ -22,3 +22,10 @@ body{
 
 .imcInputs{width:100%}
 .imcInputs input, .imcInputs label{width:100%;padding: 20px;box-sizing: border-box;margin: 10px 0;}
+
+.imcInputs input[type="button"]{    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);border:none; color: #FFF; text-transform: uppercase;font-size: 18px;cursor: pointer;}
+
+    .results{width:100%;text-align:center; margin-top: 20px}
+    .resultsScore{font-size:55px; font-weight:700}
+    .resultsInformations{width:100%; margin-top: 20px}
