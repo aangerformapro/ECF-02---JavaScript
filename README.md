@@ -26,5 +26,17 @@ Voilà comment comprendre le calcul de votre IMC :
 
 1. Gérer les inputs, retrouvez leur valeur dans votre script quand on clique sur le bouton.
 2. Faites une validation basique, empêchez le calcul si l'utilisateur laisse un ou deux inputs vides. Montrez également un message pour l'informer de l'erreur (ex : "Veuillez remplir les inputs").
-1. Calculer l'IMC avec les valeurs rentrées.
-3. Remplir l'interface en fonction des résultats
+3. Calculer l'IMC avec les valeurs rentrées.
+4. Remplir l'interface en fonction des résultats
+
+
+### Visuels
+
+Etat initial
+![alt text](https://alainmerucci.fr/projets-acs/ECF/inital.png)
+
+Etat erreur
+![alt text](https://alainmerucci.fr/projets-acs/ECF/error.png)
+
+Etat ok
+![alt text](https://alainmerucci.fr/projets-acs/ECF/ok.png)
