@@ -34,7 +34,7 @@ Voilà comment comprendre le calcul de votre IMC :
 
 Etat initial
 
-![alt text](https://alainmerucci.fr/projets-acs/ECF/inital.png)
+![alt text](https://alainmerucci.fr/projets-acs/ECF/initial.png)
 
 Etat erreur
 
