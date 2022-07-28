@@ -2,7 +2,7 @@
 
 Le but de cet ECF est de coder un **calculateur d'IMC** à partir des valeurs rentrées par un utilisateur dans les **deux inputs**.
 
-Pour rappel la formule est la suivante : IMC = poids en kg/taille² (en m)
+Pour rappel la formule est la suivante : **IMC = poids en kg/taille² (en m)**
 
 Après entrée votre taille en cm, votre poids en kilos vous allez pouvoir voir après avoir cliqué sur le bouton "Calculer mon IMC" votre indice de masse corporelle, qui sert à savoir si vous êtes plus en moins en bonne santé ou pas.
 
@@ -20,7 +20,7 @@ Voilà comment comprendre le calcul de votre IMC :
    risques pour la santé.
  - Plus de 30 : Obésité, risque accru de développer certaines maladies.
 
-### B. Fonctionnalités JavaScript à coder pour ce projet
+### Fonctionnalités JavaScript à coder pour ce projet
 
   
 
