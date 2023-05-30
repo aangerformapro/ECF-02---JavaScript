@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ECF 02 - JavaScript</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap"
-      rel="stylesheet"
-    />
 
-  </head>
-  <body>
-    <div class="container">
-      <h1>Calcul d'<strong>IMC</strong></h1>
-      <div class="imcInputs">
-        <label for="size">Poids (kg)</label>
-        <input type="number" name="weight" id="weight" />
-        <label for="size">Taille (cm)</label>
-        <input type="number" name="size" id="size" />
-        <input type="button" value="Calculer mon IMC" id="calculateIMC">
-      </div>
-      <div class="results">
-        <div class="resultsScore">0</div>
-        <div class="resultsInformations">En attente de résultats</div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECF 02 - JavaScript</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Calcul d'<strong>IMC</strong></h1>
+    <div class="imcInputs">
+      <label for="weight">Poids (kg)</label>
+      <input type="number" name="weight" id="weight" />
+      <label for="size">Taille (cm)</label>
+      <input type="number" name="size" id="size" />
+      <input type="button" value="Calculer mon IMC" id="calculateIMC">
     </div>
-    <script src="./app.js"></script>
-  </body>
+    <div class="results">
+      <div class="resultsScore">0</div>
+      <div class="resultsInformations">En attente de résultats</div>
+    </div>
+  </div>
+  <script src="./app.js" type="module"></script>
+</body>
+
 </html>

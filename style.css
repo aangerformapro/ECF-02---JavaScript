@@ -1,1 +1,61 @@
-body{background-color:#faaca8;background-image:linear-gradient(19deg,#faaca8 0,#ddd6f3 100%);padding:0;Margin:0;display:flex;align-items:center;justify-content:center;height:100vh;font-family:Montserrat,sans-serif}.container{width:100%;max-width:450px;background:#fff;box-sizing:border-box;box-shadow:-2px 14px 35px -7px rgba(0,0,0,.5);-webkit-box-shadow:-2px 14px 35px -7px rgba(0,0,0,.5);-moz-box-shadow:-2px 14px 35px -7px rgba(0,0,0,.5);padding:20px}.container h1{width:100%;text-align:center;font-weight:100;margin-bottom:40px}.container h1 strong{font-weight:700}.imcInputs{width:100%}.imcInputs input,.imcInputs label{width:100%;padding:20px;box-sizing:border-box;margin:10px 0}.imcInputs input[type=button]{background-color:#faaca8;border:none;color:#fff;text-transform:uppercase;font-size:18px;cursor:pointer}.results{width:100%;text-align:center;margin-top:20px}.resultsScore{font-size:55px;font-weight:700}.resultsInformations{width:100%;margin-top:20px}
+body {
+    background-color: #faaca8;
+    background-image: linear-gradient(19deg, #faaca8 0, #ddd6f3 100%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 450px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: -2px 14px 35px -7px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -2px 14px 35px -7px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -2px 14px 35px -7px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.container h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+.container h1 strong {
+    font-weight: 700;
+}
+.imcInputs {
+    width: 100%;
+}
+.imcInputs input,
+.imcInputs label {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+.imcInputs input[type="button"] {
+    background-color: #faaca8;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+}
+.results {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.resultsScore {
+    font-size: 55px;
+    font-weight: 700;
+}
+.resultsInformations {
+    width: 100%;
+    margin-top: 20px;
+}
