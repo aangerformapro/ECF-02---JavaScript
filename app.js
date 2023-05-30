@@ -99,7 +99,7 @@ function renderResults(weight, size)
 {
 
 
-    let value = weight / ((size / 100) ^ 2);
+    let value = weight / (Math.pow(size / 100, 2));
 
     for (let item of STATES)
     {
@@ -129,8 +129,8 @@ function listenToInputs(e)
             e.preventDefault();
         }
 
-        let [weight, size] = checkInputs();
-        renderResults(weight, size);
+
+        renderResults(...checkInputs());
 
     } catch (err)
     {
